@@ -61,8 +61,7 @@
             <p
               class="col-lg-8 copy-right-grids text-white text-lg-left text-center mt-lg-1"
             >
-              © 2018 Edulearn. All Rights Reserved | Design by
-              <a href="https://w3layouts.com/" target="_blank">W3layouts</a>
+              © 2021 Seervi Gyankosh. All Rights Reserved.
             </p>
             <!-- social icons -->
             <div

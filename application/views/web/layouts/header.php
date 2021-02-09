@@ -1,18 +1,7 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-
 <!DOCTYPE html>
 <html lang="zxx">
   <head>
-    <title>
-      Edulearn Education Category Bootstrap Responsive Website Template | About
-      Us :: W3layouts
-    </title>
-
+    <title>Seervi Gyankosh</title>
 <style>
 ul.login_ul {
  list-style-type: none;
@@ -38,7 +27,7 @@ ul.login_ul li a{
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-    <meta name="keywords" content="Edulearn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
+    <meta name="keywords" content="Seervi Gyankosh | Seervi Gyankosh Shiksha Seva Sanstha"/>
     <script>
       addEventListener(
         "load",
