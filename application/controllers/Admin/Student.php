@@ -1,9 +1,6 @@
 <?php
-
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
 class Student extends CI_Controller{
-
 	function __construct()
 	{
 		parent::__construct();
@@ -11,15 +8,11 @@ class Student extends CI_Controller{
 		$this->load->helper("url");
 		$this->load->library("session");
 		$this->load->library('form_validation');
-	
 		if(! $this->session->userdata("is_user_admin_in"))
 		{
 			redirect("admin/login");
-
 		} 
-  
 	}
-
 	public function index() 
 	{
 		$data['title'] = 'Student';
@@ -27,15 +20,11 @@ class Student extends CI_Controller{
 		$data['users_list'] = $this->Common_model->get_all($data['table']);
 		$this->load->view("admin/students/list",$data);
 	} 
-
 	public function students_list(){
- 
 		header("Access-Control-Allow-Origin: *"); 
 		$draw = intval($this->input->get("draw"));
 	    $start = intval($this->input->get("start"));
 	    $length = intval($this->input->get("length"));
-
-
       	$query = $this->Common_model->get_all('students');
       	$data = [];
       	$i = 1;
@@ -49,7 +38,6 @@ class Student extends CI_Controller{
       		}else{
       			$profile_image = '<img src="'.base_url('assets/images/user_profile/user.png').'" alt="Placeholder" style="height: 50px;width: 50px;border-radius: 50px">';
       		}
-
       		if($r->status == '1'){
  				$status = '<button onclick="changeStatus('.$r->id.',0)" class="btn btn-primary">Approve </button>';
  			}else{
@@ -80,7 +68,6 @@ class Student extends CI_Controller{
                 </div>'
            	);
       	}
-
       	$result = array(
                "draw" => $draw,
                  "recordsTotal" => $this->Common_model->count_all('students'),
@@ -90,15 +77,11 @@ class Student extends CI_Controller{
       	echo json_encode($result);
      	exit();
 	}
-
-
-
 	public function create()
 	{
 		$data['title'] = 'Add Students';
 		$this->load->view("admin/students/add",$data);
 	}
-
 	public function store(){
 	    //die('store');
 	    header("Access-Control-Allow-Origin: *");
@@ -112,11 +95,9 @@ class Student extends CI_Controller{
 		$this->form_validation->set_rules('address', 'Address', 'required');
 		$this->form_validation->set_rules('graduation', 'Graduation', 'required');
 		$this->form_validation->set_rules('password', 'Password', 'required');
-
 		if ($this->form_validation->run() == FALSE) {
 			$this->load->view("admin/students/add",$data);
 		} else {
-			
 			$user_profile = '';
 			// echo '<pre>'; print_r($_FILES['user_profile']); die;
 			$files = $_FILES['user_profile']['name'];
@@ -131,24 +112,18 @@ class Student extends CI_Controller{
 					'remove_spaces' => TRUE,
 					'encrypt_name' => TRUE
 				];
-
 		           // echo '<pre>'; print_r($config); die;
         		$this->load->library('upload', $config);
-
 		        if (!$this->upload->do_upload('user_profile')) {
 		            $error = array('error' => $this->upload->display_errors());
-
 		            echo '<pre>'; print_r($error); die;
-		            
 		            $this->session->set_flashdata("msg", "Field to upload file!");
 		            $this->load->view("admin/students/add",$data);
-		            
 		        } else {
 		        	$data = array('upload_data' => $this->upload->data());
 		            $user_profile = $data['upload_data']['file_name'];
 		        }
 			}
-
 			$postArray = array(
 				"first_name"=>$this->input->post('name'),
 				"last_name"=>$this->input->post('last_name'),
@@ -165,10 +140,8 @@ class Student extends CI_Controller{
                 "added_by" => "Admin",
 				"profile_image"=>$user_profile,
 			);
-			
 			//echo '<pre>'; print_r($postArray); die;
 			$res = $this->Common_model->insert('students',$postArray);
-			
 			if($res){
 				$response = array('success'=>true, 'message'=>'Great! Info has been added');
 			} else {
@@ -177,12 +150,9 @@ class Student extends CI_Controller{
 			echo json_encode($response);
 		}
 	}
-
 	public function updateStatus(){
-
 	  	$id = $this->input->get('id');
 	  	$status = $this->input->get('status');
-
 	  	$res = $this->Common_model->update('students',array('status'=>$status),$id);
     // echo $this->db->last_query(); die;
 	  	if($res){
@@ -191,10 +161,8 @@ class Student extends CI_Controller{
 	  		echo 0;
 	  	}
 	}
-
   	public function delete(){
 	  	$id = $this->input->get('id');
-
 	  	$res = $this->Common_model->delete("students",$id);
 	  	if($res){
 	  		echo 1;
@@ -202,78 +170,53 @@ class Student extends CI_Controller{
 	  		echo 0;
 	  	}
 	 }
-
   	public function details($id){
-
 	  	$data['title'] = 'Students Details';
 	  	$data['result'] = $this->Common_model->get_where('students',array('id'=>$id),'*');
 	  	$data['packageDetails'] =  array();
-
   		$this->load->view("admin/students/details",$data);
   	}
-
 	public function edit($id){
-
 		$data['title'] = 'Edit Customer';
 		$select = 'id,fullName,email,username,status,createdAt';
 		$data['result'] = $this->Common_model->get_where('customer',array('id'=>$id),$select);
-
 		$this->load->view("admin/student/edit",$data);
 	}
-
 /*
 	public function update_customer($id){
-
         header("Access-Control-Allow-Origin: *");
 		$data['title'] = 'Edit Customer';
 		$select = 'id,fullName,email,username,status,createdAt';
 		$data['result'] = $this->Common_model->get_where('customer',array('id'=>$id),$select);
-
 		$this->load->library('form_validation');
 		$this->form_validation->set_rules('fullName', 'Full Name', 'required');
-
 		if ($this->form_validation->run() == FALSE) {
-			
 			$errors = validation_errors();
 			redirect('admin/student/edit/'.$id)->with($errors);
 		} else {
-
 			$postData['fullName'] = $this->input->post('fullName');
-
 			$res = $this->Common_model->update('customer',$postData,$id);
-
 			if($res)
 			{
-				
 				$this->session->set_flashdata("msg", "Customer updated successfully");
 				redirect("admin/student/list");
 			}
 			else
 			{
-				
 				$this->session->set_flashdata("msg", "Failed to update customer");
 				redirect("admin/student/edit/$id");
 			}
 		}
-		
 	}
-
 	public function checkEmail($email){
-
 		return $this->Common_model->checkEmail('customer',$email);
-
 	}
-
-
 // Update user Status
-
 	public function updateStatus1(){
 		$where=array(
 			"id"=>$_POST['id'],
 		);
-
 		$query = $this->db->select('status')->from('students')->where($where)->get();
-
 		if($query->num_rows() > 0){
 			$result=$query->row();
 			if ($result->status=="1") {
@@ -290,12 +233,10 @@ class Student extends CI_Controller{
 			}
 		}
 	}
-
   public function add_student_show(){
   	$data['title']="Student Add";
        $this->load->view("admin/student/add",$data);
   }
-
   public function get_add_student(){
   	$temp = explode('.', $_FILES["user_profile"]["name"]);
 	$newfilename = round(microtime(true)) . '.' . end($temp);
@@ -311,12 +252,9 @@ class Student extends CI_Controller{
               "status"=>"1",
               "created_at"=>date("M,d,Y h:i:s A") . "\n",
               "profile_image"=>$newfilename,
-              
 		);
-
        $response=$this->Common_model->std_insert($std_data);
         print_r($response);
-       
        if ($response>0) {
        	  $name = $newfilename;
           $target_dir = "./assets/images/user_profile/";
@@ -324,12 +262,8 @@ class Student extends CI_Controller{
          // print_r($target_file);
        	  move_uploaded_file($_FILES['user_profile']['tmp_name'],$target_dir.$name);
        }
-
   }
 */
-
 /*--------------------------------End--------------------------------------*/
-
 }
-
 ?>

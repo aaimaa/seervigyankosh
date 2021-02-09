@@ -1,30 +1,23 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 class Welcome extends CI_Controller {
-
 	function __construct()
 	{
 		parent::__construct();
-   
 		$this->load->helper("url");
 		$this->load->library("session");
 		$this->load->model("Common_model");
 		$this->load->library('form_validation');
-
 		//echo "Hellow....welcome web/c."."<br>"; die;
 	}  
-
 	 public function switchLang($language = "") {
     $this->session->set_userdata('site_lang', $language);
     header('Location: http://localhost/seerviG/');
   }
-
 	public function page404(){
 		$data['title']="404 Error Page";
 		$this->load->view('web/404',$data);
 	}
-
 	public function index()
 	{die('jvjgfsjhg');
 		 //$this->session->set_userdata('site_lang',  "english");
@@ -36,13 +29,11 @@ class Welcome extends CI_Controller {
 		$data['title']="About Us";
 		$this->load->view('web/about',$data);
 	}
-
 	public function blog()
 	{
 		$data['title']="Blog Page";
 		$this->load->view('web/blog',$data);
 	}
-
 	public function business()
 	{
 		$data['title']="Business";
@@ -121,8 +112,6 @@ class Welcome extends CI_Controller {
 		$draw = intval($this->input->get("draw"));
 	    $start = intval($this->input->get("start"));
 	    $length = intval($this->input->get("length"));
-
-
       	$query = $this->Common_model->get_all('bhamashah');
       	$data = [];
       	$i = 1;
@@ -136,7 +125,6 @@ class Welcome extends CI_Controller {
       		}else{
       			$profile_image = '<img src="'.base_url('assets/images/user_profile/user.png').'" alt="Placeholder" style="height: 50px;width: 50px;border-radius: 50px">';
       		}
-
       		$deleteButton = '<a  style="text-decoration: none;" data-title ="Confirmation" data-toggle="tooltip" data-placement="top" title="Delete Record" onclick="confirmDelete('.$r->id.')" href="javascript:void(0)" data-original-title="Delet"><i class="fa fa-trash"></i> Delete</a>';
       		if(!empty($r->date)){
       			$date = ($r->date == '0000-00-00')?('-'):($r->date);
@@ -152,7 +140,6 @@ class Welcome extends CI_Controller {
                 $date
            	);
       	}
-
       	$result = array(
                "draw" => $draw,
                  "recordsTotal" => $this->Common_model->count_all('bhamashah'),
@@ -162,7 +149,6 @@ class Welcome extends CI_Controller {
       	echo json_encode($result);
      	exit();
 	}
-
 	public function padaadhikari()
 	{
 		$data['title'] = "Padaadhikari";
@@ -183,22 +169,17 @@ class Welcome extends CI_Controller {
 		$data['title'] = "Software";
 		$this->load->view('web/software',$data);
 	}
-
 	public function user_login(){
 		$this->load->view("web/login");
 	}
-
 	public function register(){
 		$data['title']="Register";
 		$this->load->view("web/register",$data);
 	}
-
 	public function get_register(){
 		$temp = explode(".", $_FILES["user_profile"]["name"][0]);
 $newfilename = round(microtime(true)) . '.' . end($temp);
-
 if (!empty($_FILES["user_profile"]["name"][0])) {
-
 			$std_data=array(
               "first_name"=>$_POST['firstName'],
               "last_name"=>$_POST['lastName'],
@@ -211,14 +192,10 @@ if (!empty($_FILES["user_profile"]["name"][0])) {
               "status"=>"1",
               "created_at"=>date("M,d,Y h:i:s A") . "\n",
               "profile_image"=>$newfilename,
-              
 		);
 			    $response=$this->Common_model->std_insert($std_data);
         print_r($response);
-
-		       
        if ($response>0) {
-       	
        	  $name = $newfilename;
           $target_dir = "./assets/images/user_profile/";
          $target_file = $target_dir . basename($newfilename);
@@ -238,26 +215,17 @@ else{
               "status"=>"1",
               "created_at"=>date("M,d,Y h:i:s A") . "\n",
               "profile_image"=>"user.png",
-              
 		);
 		    $response=$this->Common_model->std_insert($std_data);
         print_r($response);
-
 }
-
-   
-
 	}
-   
    public function do_login(){
-   	
    	  if (is_numeric($_POST['email'])) {
-
    	  	  $do_login=array(
          "phone"=>$_POST['email'],
          "password"=>md5($_POST['pass']),
    	  );
-   	    
             	  $response=$this->Common_model->do_login_match($do_login);
 				      if($response->status=='1'){
 						               if ($response) {
@@ -274,7 +242,6 @@ else{
 				      else{
 				      	echo "4";
 				      }
-
    	  }else{
    	  	  $do_login=array(
          "email"=>$_POST['email'],
@@ -297,11 +264,7 @@ else{
 				      	echo "4";
 				      }
    	  }
-
-
-
    }
-
   public function penalty_list(){
 		header("Access-Control-Allow-Origin: *");
 		$draw = intval($this->input->get("draw"));
@@ -309,14 +272,11 @@ else{
 	    $length = intval($this->input->get("length"));
 	    //$select = 'finance.*,customers.name,mobile_number';
       	// $where = array('penalty >' => 0,'finance.deleted_at'=>NULL);
-
       	$query = $this->Common_model->show_listing();
       	// echo '<pre>'; print_r($query); die;
       	$data = [];
       	$i = 1;      	
       	foreach($query as $r) {
-
-
           	$data[] = array(
                 $i++,
                 $r->name,
@@ -325,7 +285,6 @@ else{
            	);
       	}
       	$data['table']="bhamashah";
-
       	$result = array(
                "draw" => $draw,
                  "recordsTotal" => $this->Common_model->count_all($data),
@@ -335,10 +294,8 @@ else{
       	echo json_encode($result);
      	exit();
 	}
-
    public function logout(){
    	   $this->session->sess_destroy();
    	   redirect("home");
    }
-
 }

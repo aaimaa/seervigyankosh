@@ -1,23 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 class UserController extends CI_Controller {
-
 	function __construct()
 	{
 		parent::__construct();
-   
 		$this->load->helper("url");
 		$this->load->library("session");
 		$this->load->model("Common_model");
 		$this->load->library('form_validation');
-
 		/*if(!$this->session->userdata("is_user_in"))
     {
       return redirect("login");
     }*/
 	}
-
   public function login()
   {
     if($this->session->userdata("is_user_in"))
@@ -26,7 +21,6 @@ class UserController extends CI_Controller {
     }
     $this->load->view("web/login");
   }
-
   /*
     *@Description: For post login
     *Creted By: Shraddha Choyal
@@ -35,23 +29,17 @@ class UserController extends CI_Controller {
   {
     $this->form_validation->set_rules('email', 'Email', 'required');
       $this->form_validation->set_rules('pass', 'Password', 'required');
-
     if ($this->form_validation->run() == FALSE) {
       $this->load->view("admin/login");
-      
     } else {
       $u=$this->input->post("email");
       $p=md5($this->input->post("pass"));
-
       if (is_numeric($_POST['email'])) {
         $loginData = array("phone" => $u, "password" => $p);
-
       }else{
         $loginData = array("email" => $u, "password" => $p);
       }
-
       $obj = $this->Common_model->model_auth($loginData,'students');
-      
       if($obj)
       {
         if($obj->password == $p)
@@ -72,8 +60,6 @@ class UserController extends CI_Controller {
       echo json_encode($response);
     }
   }
-
-
   /*
     *@Description: For view user profile
     *Creted By: Shraddha Choyal
@@ -88,11 +74,8 @@ class UserController extends CI_Controller {
     $userId = $this->session->userdata('is_user_in')->id;
     $select = 'id,first_name,last_name,fathers_name,email,phone,city,address,graduation,status,profile_image,created_at';
     $data['result'] = $this->Common_model->get_where('students',['id'=>$userId],$select);
-    
     $this->load->view("web/user_profile",$data);
   }
-
-
   /*
     *@Description: For show registered page
     *Creted By: Shraddha Choyal
@@ -101,7 +84,6 @@ class UserController extends CI_Controller {
     $data['title']="Register";
     $this->load->view("web/register",$data);
   }
-
   /*
     *@Description: For registered new user
     *Creted By: Shraddha Choyal
@@ -109,7 +91,6 @@ class UserController extends CI_Controller {
   public function post_register()
   {
     header("Access-Control-Allow-Origin: *");
-      
     $data['title'] = 'Add Customer';
     $this->form_validation->set_rules('firstName', 'First name', 'required');
     $this->form_validation->set_rules('lastName', 'Last name', 'required');
@@ -119,12 +100,9 @@ class UserController extends CI_Controller {
     $this->form_validation->set_rules('job', 'Graduation', 'required');
     $this->form_validation->set_rules('password', 'Password', 'required');
     $this->form_validation->set_rules('c_password', 'Confirm password', 'required');
-
     if ($this->form_validation->run() == FALSE) {
-      
       $this->load->view("web/register",$data);
     } else {
-
       $postData = array(
         "first_name"=>$this->input->post('firstName'),
         "last_name"=>$this->input->post('lastName'),
@@ -145,14 +123,11 @@ class UserController extends CI_Controller {
       }
       echo json_encode($response);
     }
-    
   }
-
   public function logout(){
     $this->session->sess_destroy();
     redirect("home");
   }
-
   public function library()
   {
     if(!$this->session->userdata("is_user_in"))
@@ -163,14 +138,12 @@ class UserController extends CI_Controller {
     $data['result'] = $this->Common_model->get_all('book');
     $this->load->view("web/E-library",$data);
 	}
-
 	public function library_list(){
 		$data['title']="Library";
         header("Access-Control-Allow-Origin: *"); 
 		$draw = intval($this->input->get("draw"));
 	    $start = intval($this->input->get("start"));
 	    $length = intval($this->input->get("length"));
-
       	$query = $this->Common_model->get_all('book');
       	$data = [];
       	$i = 1;
@@ -181,7 +154,6 @@ class UserController extends CI_Controller {
                 '<a href="'.$r->link.'" target="_blank">'.$r->link.'</a>'
            	);
       	}
-
       	$result = array(
                "draw" => $draw,
                  "recordsTotal" => $this->Common_model->count_all('book'),
@@ -191,6 +163,4 @@ class UserController extends CI_Controller {
       	echo json_encode($result);
      	exit();
 	}  
-
 }
-

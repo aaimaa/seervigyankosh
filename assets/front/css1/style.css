@@ -4,7 +4,6 @@ body,
 .view {
   height: 100%;
 }
-
 /* Full Page Carousel itself*/
 .carousel {
   height: 100%;
@@ -16,23 +15,19 @@ body,
 .carousel .carousel-inner .active {
   height: 100%;
 }
-
 /* Navbar animation */
 .navbar {
   background-color: rgba(0, 0, 0, 0.2);
 }
-
 .top-nav-collapse {
   background-color: #1c2331;
 }
-
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: #1c2331;
   }
 }
-
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
   background-color: #1c2331;
@@ -49,14 +44,12 @@ body,
   -webkit-border-radius: 0.125rem;
   border-radius: 0.125rem;
 }
-
 /* select starting stylings ------------------------------*/
 .select {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   position: relative;
   width: auto;
 }
-
 .select-text {
   position: relative;
   font-family: inherit;
@@ -68,19 +61,16 @@ body,
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
-
 /* Remove focus */
 .select-text:focus {
   outline: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
-
 /* Use custom arrow */
 .select .select-text {
   appearance: none;
   -webkit-appearance: none;
 }
-
 .select:after {
   position: absolute;
   top: 18px;
@@ -95,7 +85,6 @@ body,
   border-top: 6px solid rgba(0, 0, 0, 0.12);
   pointer-events: none;
 }
-
 /* LABEL ======================================= */
 .select-label {
   color: rgba(0, 0, 0, 0.26);
@@ -107,7 +96,6 @@ body,
   top: 10px;
   transition: 0.2s ease all;
 }
-
 /* active state */
 .select-text:focus ~ .select-label,
 .select-text:valid ~ .select-label {
@@ -116,14 +104,12 @@ body,
   transition: 0.2s ease all;
   font-size: 14px;
 }
-
 /* BOTTOM BARS ================================= */
 .select-bar {
   position: relative;
   display: block;
   width: auto;
 }
-
 .select-bar:before,
 .select-bar:after {
   content: "";
@@ -134,21 +120,17 @@ body,
   background: #2f80ed;
   transition: 0.2s ease all;
 }
-
 .select-bar:before {
   left: 50%;
 }
-
 .select-bar:after {
   right: 50%;
 }
-
 /* active state */
 .select-text:focus ~ .select-bar:before,
 .select-text:focus ~ .select-bar:after {
   width: auto;
 }
-
 /* HIGHLIGHTER ================================== */
 .select-highlight {
   position: absolute;
@@ -159,4 +141,3 @@ body,
   pointer-events: none;
   opacity: 0.5;
 }
-

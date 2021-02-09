@@ -1,27 +1,20 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 class Library extends CI_Controller {
-
 	function __construct()
 	{
 		parent::__construct();
-   
 		$this->load->helper("url");
 		$this->load->library("session");
 		$this->load->model("Common_model");
 		$this->load->library('form_validation');
 	}  
-
-
 	public function index() 
 	{
 		$data['title'] = 'Library';
 		$data['table'] = 'library';
-		
 		$this->load->view("admin/library/list",$data);
 	}
-
 	public function library_list()
 	{
 		$data['title']="Library";
@@ -34,9 +27,7 @@ class Library extends CI_Controller {
       	$data = [];
       	$i = 1;
       	foreach($query as $r) {
-      		
       		$deleteButton = '<a  style="text-decoration: none;" data-title ="Confirmation" data-toggle="tooltip" data-placement="top" title="Delete Record" onclick="confirmDelete('.$r->id.')" href="javascript:void(0)" data-original-title="Delet"><i class="fa fa-trash"></i> Delete</a>';
-      		
           	$data[] = array(
                 $i++,
                 ucwords($r->name),
@@ -52,7 +43,6 @@ class Library extends CI_Controller {
                 </div>'
            	);
       	}
-
       	$result = array(
                "draw" => $draw,
                  "recordsTotal" => $this->Common_model->count_all('book'),
@@ -62,7 +52,6 @@ class Library extends CI_Controller {
       	echo json_encode($result);
      	exit();
 	}
-
 	public function delete(){
 	  	$id = $this->input->get('id');
 	  	$res = $this->Common_model->delete("book",$id);
@@ -76,18 +65,15 @@ class Library extends CI_Controller {
 		   $id = $this->input->post('id');
 		$this->Common_model->delete("bhamashah",$id);
 	}*/
-
 	public function create()
 	{
 		$data['title']="Add Library";
 		$this->load->view("admin/library/add",$data);
 	}
-
 	public function store()
 	{
 		$this->form_validation->set_rules('name', 'Book name', 'required');
 		$this->form_validation->set_rules('link', 'Book url', 'required');
-
 		if ($this->form_validation->run() == FALSE) {
 			$this->load->view("admin/library/add",$data);
 		} else {
@@ -104,11 +90,6 @@ class Library extends CI_Controller {
 			echo json_encode($response);
 		}
 	}
-
-
-
-
-
 	public function bhamashah_edit()
 	{
 		$data['title']="Bhamasha List edit";
@@ -120,7 +101,6 @@ class Library extends CI_Controller {
 			$data['result']= $query->result();
 		$this->load->view("admin/bhamashah/edit",$data);
 	}
-
 	public function get_update_bhamashah(){
          $srtd=$_POST;
 		$responce=$this->Common_model->update_bhamashah_list($srtd);
@@ -128,5 +108,4 @@ class Library extends CI_Controller {
         	echo "1";
         }
 	}
-
 }
