@@ -17,7 +17,7 @@ class WelcomeController extends CI_Controller {
 
 	 public function switchLang($language = "") {
     $this->session->set_userdata('site_lang', $language);
-    header('Location: http://localhost/seerviG/');
+    header('Location: http://seervigyankosh.com/');
   }
 
 	public function page404(){
@@ -181,9 +181,8 @@ class WelcomeController extends CI_Controller {
 		$draw = intval($this->input->get("draw"));
 	    $start = intval($this->input->get("start"));
 	    $length = intval($this->input->get("length"));
-
-
-      	$query = $this->Common_model->get_all('labharthi');
+	    $where = array('status' => 1);
+      	$query = $this->Common_model->get_all('students',$where);
       	$data = [];
       	$i = 1;
       	foreach($query as $r) {
@@ -196,17 +195,20 @@ class WelcomeController extends CI_Controller {
           	$data[] = array(
                 $i++,
                 // ucwords($r->add_id),
-                ucwords($r->name),
+                ucwords($r->first_name.' '.$r->last_name),
+                ucwords($r->fathers_name),
+                ucfirst($r->phone),
                 ucfirst($r->city),
-                $r->amount,
+                ucfirst($r->email),
+                $r->graduation,
                 $date
            	);
       	}
 
       	$result = array(
                "draw" => $draw,
-                 "recordsTotal" => $this->Common_model->count_all('labharthi'),
-                 "recordsFiltered" => $this->Common_model->count_all('labharthi'),
+                 "recordsTotal" => $this->Common_model->count_all('students'),
+                 "recordsFiltered" => $this->Common_model->count_all('students'),
                  "data" => $data
             );
       	echo json_encode($result);
