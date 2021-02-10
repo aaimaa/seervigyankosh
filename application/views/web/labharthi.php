@@ -32,8 +32,10 @@
                       <th>ID</th>
                       <th>Full Name</th>
                       <th>Father's Name</th>
+                      <th>Contact</th>
                       <th>City/Village</th>
-                      <th>Description</th>
+                      <th>Email</th>
+                      <th>Date</th>
                     </tr>
                   </thead>
                   
