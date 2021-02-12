@@ -22,7 +22,7 @@
           <div class="card card-primary card-outline">
             <div class="card-body box-profile">
               <div class="text-center">
-                <img src="<?php echo base_url('assets/images/user2-160x160.jpg');?>" alt="User profile picture">
+                <img src="<?php echo base_url('assets/images/sample-profile.png');?>" alt="User profile picture">
               </div>
               <h3 class="profile-username text-center"><span id="authName"><?php echo $result[0]->name; ?></span></h3>
               <ul class="list-group list-group-unbordered mb-3">

@@ -20,7 +20,7 @@
   <script type="text/javascript"> var SITEURL = "<?= base_url()?>"; </script>
   <style type="text/css">
   	.login-page{
-  		background: url("<?= base_url('assets/images/b1.jpg')?>") no-repeat right center;
+  		background: url("<?= base_url('assets/front/images/admin-loginbg.jpg')?>") no-repeat right center;
   	}
   </style>
 </head>

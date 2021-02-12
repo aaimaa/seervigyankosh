@@ -73,7 +73,7 @@
                   href="https://www.youtube.com/channel/UC51Z1_cxHrpKsYRoc35rAvQ"
                   target="_blank"
                 >
-                  <img src="<?php echo base_url('assets/front/images/youtube-icon.png')?>" style="width: 100px"
+                  <img src="<?php echo base_url('assets/front/images/youtube.jpg')?>" style="width: 100px"
                 /></a>
               </div>
               <p class="text-uppercase text-white border-top pt-4 mt-3">
@@ -88,7 +88,7 @@
                   href="https://www.instagram.com/seervigyankosh_official/"
                   target="_blank"
                 >
-                  <img src="<?php echo base_url('assets/front/images/6355924_preview.png')?>" style="width: 100px"
+                  <img src="<?php echo base_url('assets/front/images/instagram.png')?>" style="width: 100px"
                 /></a>
               </div>
               <p class="text-uppercase text-white border-top pt-4 mt-3">
@@ -128,7 +128,7 @@
               <a href="language.html">
                 <div class="img">
                   <img
-                    src="<?php echo base_url('assets/front/images/talk.jpeg');?>"
+                    src="<?php echo base_url('assets/front/images/seervi-talks.jpeg');?>"
                     alt="img"
                     class="img-fluid rounded-circle"
                   />
@@ -157,7 +157,7 @@
               <a href="communication.html">
                 <div class="img">
                   <img
-                    src="<?php echo base_url('assets/front/images/phy.jpeg')?>"
+                    src="<?php echo base_url('assets/front/images/sawasthya-mitra.jpeg')?>"
                     alt="img"
                     class="img-fluid rounded-circle"
                   />
@@ -186,7 +186,7 @@
               <a href="business.html">
                 <div class="img">
                   <img
-                    src="<?php echo base_url('assets/front/images/mitra.jpeg')?>"
+                    src="<?php echo base_url('assets/front/images/vidhyathi-mitra.jpeg')?>"
                     alt="img"
                     class="img-fluid rounded-circle"
                   />
