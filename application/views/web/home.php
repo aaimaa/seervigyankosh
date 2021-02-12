@@ -435,75 +435,75 @@
         <h3
           class="title text-capitalize font-weight-light text-dark text-center mb-5"
         >
-          Our Latest
-          <span class="font-weight-bold">news</span>
+          हमारे
+          <span class="font-weight-bold">प्रायोजक</span>🙏
         </h3>
         <div class="row news-grids-w3l pt-md-4">
           <div class="col-md-4 news-grid OnMouseHover">
             <a href="#">
-              <img src="<?php echo base_url('assets/front/images/logo.jpg')?>" class="img-fluid" alt="" />
+              <img src="<?php echo base_url('assets/front/images/aaimaaerp-4096x2304.png')?>" class="img-fluid" alt="" />
             </a>
             <div class="news-text">
-              <div class="news-events-agile event-colo1 py-2 px-3">
+              <div class="news-events-agile event-colo3 py-2 px-3">
                 <h5 class="float-left">
-                  <a href="#" class="text-white">13 Feb</a>
+                  <a href="https://www.aaimaa.in" class="text-white">हमारी वेबसाइट : www.aaimaa.in</a>
                 </h5>
                 <div class="clearfix"></div>
               </div>
               <div class="detail-bottom">
                 <h6 class="my-3">
                   <a href="#" class="text-dark">
-                   सीरवी ज्ञानकोष News Blog
+                  आईमा वेब सॉलूशन्स (Aaimaa)
                   </a>
                 </h6>
                 <p>
-                  Comming Soon
+                क्या आप अपने व्यापार का सम्पूर्ण डिजिटलीकरण करना चाहते हैं? जैसे की वेबसाइट डेवलप करवाना हो या मोबाइल एप्लीकेशन, व्यापार मैनेजमेंट सॉफ्टवेयर लगवाना हो या डिजिटल मार्केटिंग! किसी भी प्रकार की तकनीकी जानकारी या कार्य के लिए सम्पर्क कर सकते हैं, +91-9887981988 अथवा हमारी वेबसाइट: https://www.aaimaa.in के माध्यम से!
                 </p>
               </div>
             </div>
           </div>
           <div class="col-md-4 news-grid my-md-0 my-sm-5 my-4 OnMouseHover">
             <a href="#">
-              <img src="<?php echo base_url('assets/front/images/logo.jpg')?>" class="img-fluid" alt="" />
+              <img src="<?php echo base_url('assets/front/images/IMG-20210212-WA0010.jpg')?>" class="img-fluid" alt="" />
             </a>
             <div class="news-text">
               <div class="news-events-agile py-2 px-3">
                 <h5 class="float-left">
-                  <a href="#" class="text-white">13 Feb</a>
+                  <a href="#" class="text-white">लग्गेरे, बेंगलुरु</a>
                 </h5>
                 <div class="clearfix"></div>
               </div>
               <div class="detail-bottom">
                 <h6 class="my-3">
                   <a href="#" class="text-dark">
-                    सीरवी ज्ञानकोष News Blog
+                    हीरा इलेक्ट्रिकल्स, लग्गेरे, बेंगलुरु
                   </a>
                 </h6>
                 <p>
-                   Comming Soon
+                बिजली के तार व् केबल, एक्सप्लोसन प्रूफ एनक्लोजर, सर्किट ब्रेकर, इलेक्ट्रिकल कनेक्टर्स व् लग्स एवं मोटर कण्ट्रोल होलसेल डीलर हैं! आप हमसे +91-8050740331 पर सम्पर्क कर सकते हैं!
                 </p>
               </div>
             </div>
           </div>
           <div class="col-md-4 news-grid OnMouseHover">
             <a href="#">
-              <img src="<?php echo base_url('assets/front/images/logo.jpg')?>" class="img-fluid" alt="" />
+              <img src="<?php echo base_url('assets/front/images/IMG-20210212-WA0011.jpg')?>" class="img-fluid" alt="" />
             </a>
             <div class="news-text">
-              <div class="news-events-agile event-colo3 py-2 px-3">
+              <div class="news-events-agile event-colo1 py-2 px-3">
                 <h5 class="float-left">
-                  <a href="#" class="text-white">13 Feb</a>
+                  <a href="#" class="text-white">कचोहल्ली, बेंगलुरु</a>
                 </h5>
                 <div class="clearfix"></div>
               </div>
               <div class="detail-bottom">
                 <h6 class="my-3">
                   <a href="#" class="text-dark">
-                    सीरवी ज्ञानकोष News Blog
+                  लक्ष्मी प्रोडक्ट्स, कचोहल्ली, बेंगलुरु
                   </a>
                 </h6>
                 <p>
-                 Comming Soon
+                हम लक्ष्मी प्रोडक्ट्स, रॉ अगरबत्ती, परफुयम अगरबत्ती, धुप बत्ती, परफुयम धुप, फ़्लोरा अगरबत्ती के निर्माता व् होलसेल लेवल पर उत्पादन व् आपूर्ति करते हैं! आप हमसे +91-7204326284 पर सम्पर्क कर सकते हैं!
                 </p>
               </div>
             </div>
