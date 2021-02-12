@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
   <head>
-    <title>Seervi Gyankosh</title>
+    <title>सीरवी ज्ञानकोष</title>
 <style>
 ul.login_ul {
  list-style-type: none;
@@ -146,11 +146,11 @@ ul.login_ul li a{
               </a>
             </li>
             <?php }else{?>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
               <a class="nav-link border border-light rounded waves-effect waves-light <?php if($this->uri->segment(1) == 'login'){ echo 'active'; }?>" href="<?php echo base_url('login');?>">
                 <i class="fas fa-sign-in-alt mr-2"></i>LOGIN
               </a>
-            </li>
+            </li> -->
             <li class="nav-item ">
               <a  class="nav-link border border-light rounded waves-effect waves-light <?php if($this->uri->segment(1) == 'register'){ echo 'active'; }?>" href="<?php echo base_url('register');?>">
                 <i class="fab fa-github mr-2"></i>REGISTR
@@ -224,14 +224,14 @@ ul.login_ul li a{
               <li class="nav-item <?php if($this->uri->segment(1) == 'contact-us'){ echo 'active'; }?>">
                 <a class="nav-link text-white" href="#contactUsForm">Contact Us</a>
               </li>
+              <li class="nav-item <?php if($this->uri->segment(1) == 'library'){ echo 'active'; }?>">
+                <a class="nav-link text-white" href="library">E - Library</a>
+              </li>
             </ul>
             </ul>
           </div>
         </nav>
       </div>
-            <div class="banner-text-whtree">
-          <a href="<?php echo base_url('library');?>" class="button-agiles text-capitalize text-white mt-sm-5 mt-4">E - Library</a>
-        </div>
       <!-- //navigation -->
     </div>
 

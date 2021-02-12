@@ -84,7 +84,7 @@
     <a href="<?php echo base_url('/');?>" class="brand-link">
       <img src="<?= base_url('assets/images/logo.png')?>" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Royal Finance</span>
+      <span class="brand-text font-weight-light">Gyankosh Admin</span>
     </a>
 
     <!-- Sidebar -->

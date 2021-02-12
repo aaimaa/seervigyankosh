@@ -37,12 +37,12 @@
                           <img src="<?php echo base_url('assets/images/developer_img/akash_parihar_img.jpg');?>" class="img-fluid rounded-circle z-depth-1"/>
                         </div>
 
-                        <div class="text-center mt-3">
+                        <!-- <div class="text-center mt-3">
                           <h6 class="font-weight-bold pt-2">Akash Parihar</h6>
                           <p class="text-muted">
                             <small><i>(संगठन सचिव)</i></small>
                           </p>
-                        </div>
+                        </div> -->
                       </div>
                     </div>
 
@@ -355,14 +355,14 @@
     <section class="our-webcoderskull padding-lg">
       <div class="container">
         <div class="row heading heading-icon">
-          <h2>Developers</h2>
+          <h2>वेब टीम</h2>
         </div>
         <ul class="row">
           <li class="col-12 col-md-6 col-lg-4">
             <div class="cnt-block equal-hight" style="height: 349px">
               <figure><img src="<?php echo base_url('assets/images/developer_img/sid_img.jpg');?>" class="img-responsive" alt=""/></figure>
-              <h3><a href="http://www.webcoderskull.com/">Er. Shraddha Choyal</a></h3>
-              <p>Web Developer</p>
+              <h3><a href="http://www.webcoderskull.com/">शारदा चोयल</a></h3>
+              <p>वेब डेवलपर</p>
               <ul class="follow-us clearfix">
                 <li><a href="https://m.facebook.com/shraddha.choyal.1"  target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -373,8 +373,8 @@
           <li class="col-12 col-md-6 col-lg-4">
             <div class="cnt-block equal-hight" style="height: 349px">
               <figure><img src="<?php echo base_url('assets/images/developer_img/prakash_sencha_img.jpeg');?>" class="img-responsive" alt=""/></figure>
-              <h3><a href="#">Prakash sencha </a></h3>
-              <p>Web Designer</p>
+              <h3><a href="#">प्रकाश सेणचा</a></h3>
+              <p>वेब डिज़ाइनर</p>
               <ul class="follow-us clearfix">
                 <li><a href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -385,8 +385,8 @@
           <li class="col-12 col-md-6 col-lg-4">
             <div class="cnt-block equal-hight" style="height: 349px">
               <figure><img src="<?php echo base_url('assets/images/developer_img/prakash_panwar_img.jpg');?>" class="img-responsive" alt=""/></figure>
-              <h3><a href="http://www.webcoderskull.com/">Prakash Panwar</a></h3>
-              <p>Project Coordinator</p>
+              <h3><a href="http://www.webcoderskull.com/">प्रकाश सीरवी</a></h3>
+              <p>प्रोजेक्ट को-ऑर्डिनेटर</p>
               <ul class="follow-us clearfix">
                 <li><a href="https://www.linkedin.com/in/prakash-panwar-425745138"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 <li><a href="https://www.facebook.com/profile.php?id=100007153004701"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

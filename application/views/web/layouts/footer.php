@@ -13,7 +13,7 @@
             <div class="conta-posi-w3ls p-4 rounded">
               <h5 class="text-white font-weight-bold mb-3">Address</h5>
               <p>
-               कार्यालय - श्री आईमाताजी मंदिर मार्ग, <span>बडेर चौक,,</span>  बिलाड़ा - जोधपुर (राज.),
+               कार्यालय - श्री आईमाताजी मंदिर मार्ग, <span>बडेर चौक,</span>  बिलाड़ा - जोधपुर (राज.),
               </p>
             </div>
           </div>
@@ -22,9 +22,7 @@
               Contact Us
             </h4>
             <p class="conta-para-style border-left pl-4">
-              If you have any questions about the services we provide simply use
-              the form below. We try and respond to all queries and comments
-              within 24 hours.
+              यदि आपके पास हमारे द्वारा प्रदान की जाने वाली सेवाओं के बारे में कोई प्रश्न हैं, तो बस नीचे दिए गए फॉर्म का उपयोग करें। हम 24 घंटे के भीतर सभी प्रश्नों और टिप्पणियों का प्रयास करते हैं।
             </p>
             <div class="subscribe-w3ls my-xl-5 my-4">
                 <form id="contact_us_form" method="post" class="subscribe_form">
@@ -38,7 +36,7 @@
                 </form>
             </div>
             <p class="para-agileits-w3layouts text-white">
-              <i class="fas fa-map-marker pr-3"></i>  कार्यालय - श्री आईमाताजी मंदिर मार्ग, <span>बडेर चौक,,</span>  बिलाड़ा - जोधपुर (राज.),
+              <i class="fas fa-map-marker pr-3"></i>कार्यालय - श्री आईमाताजी मंदिर मार्ग, <span>बडेर चौक,</span>  बिलाड़ा - जोधपुर (राज.),
             </p>
             <p class="para-agileits-w3layouts text-white my-sm-3 my-2">
               <i class="fas fa-phone pr-3"></i>032 625 4592

@@ -73,7 +73,7 @@
                   href="https://www.youtube.com/channel/UC51Z1_cxHrpKsYRoc35rAvQ"
                   target="_blank"
                 >
-                  <img src="<?php echo base_url('assets/front/images/youtube.jpg')?>" style="width: 100px"
+                  <img src="<?php echo base_url('assets/front/images/youtube.png')?>" style="width: 100px"
                 /></a>
               </div>
               <p class="text-uppercase text-white border-top pt-4 mt-3">
@@ -118,7 +118,7 @@
         <h3
           class="title text-capitalize font-weight-light text-dark text-center mb-sm-5 mb-4"
         >
-          <span class="font-weight-bold">सीरवी टॉक्स विद् ज्ञानकोष</span>
+          <span class="font-weight-bold">सीरवी ज्ञानकोष की गतिविधियाँ</span>
         </h3>
         <div class="row pt-4">
           <div class="col-lg-4 col-news-top text-center">
@@ -209,10 +209,8 @@
             <!-- end Left to right -->
           </div>
         </div>
-        <div class="row mt-5">
+        <!-- <div class="row mt-5">
           <div class="col-lg-4 col-news-top text-center">
-            <!-- Left to right -->
-            <!-- normal -->
             <div class="ih-item circle effect16 left_to_right mx-auto">
               <a href="software.html">
                 <div class="img">
@@ -234,12 +232,8 @@
                 <i class="fas fa-long-arrow-alt-right ml-1"></i>
               </a>
             </h6>
-            <!-- end normal -->
-            <!-- end Left to right -->
-          </div>
-          <div class="col-lg-4 col-news-top text-center my-lg-0 my-sm-5 my-4">
-            <!-- Left to right -->
-            <!-- normal -->
+          </div> -->
+          <!-- <div class="col-lg-4 col-news-top text-center my-lg-0 my-sm-5 my-4">
             <div class="ih-item circle effect16 left_to_right mx-auto">
               <a href="social_media.html">
                 <div class="img">
@@ -261,12 +255,8 @@
                 <i class="fas fa-long-arrow-alt-right ml-1"></i>
               </a>
             </h6>
-            <!-- end normal -->
-            <!-- end Left to right -->
           </div>
           <div class="col-lg-4 col-news-top text-center">
-            <!-- Left to right -->
-            <!-- normal -->
             <div class="ih-item circle effect16 left_to_right mx-auto">
               <a href="photography.html">
                 <div class="img">
@@ -288,9 +278,7 @@
                 <i class="fas fa-long-arrow-alt-right ml-1"></i>
               </a>
             </h6>
-            <!-- end normal -->
-            <!-- end Left to right -->
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

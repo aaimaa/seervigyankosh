@@ -18,8 +18,8 @@
     <div class="contact py-5">
       <div class="container py-xl-5 py-lg-3">
         <h3 class="title text-capitalize font-weight-light text-dark text-center mb-5" >
-          <?php echo $title;?>
-          <span class="font-weight-bold"></span>
+          लाभार्थी
+        <span class="font-weight-bold"></span>
         </h3>
         <!-- form -->
         <form action="#" method="post">
