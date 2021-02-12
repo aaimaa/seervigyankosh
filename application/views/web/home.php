@@ -447,81 +447,75 @@
         <h3
           class="title text-capitalize font-weight-light text-dark text-center mb-5"
         >
-          our lastest
+          Our Latest
           <span class="font-weight-bold">news</span>
         </h3>
         <div class="row news-grids-w3l pt-md-4">
           <div class="col-md-4 news-grid OnMouseHover">
-            <a href="blog.html">
-              <img src="<?php echo base_url('assets/front/images/n1.jpg')?>" class="img-fluid" alt="" />
+            <a href="#">
+              <img src="<?php echo base_url('assets/front/images/logo.jpg')?>" class="img-fluid" alt="" />
             </a>
             <div class="news-text">
               <div class="news-events-agile event-colo1 py-2 px-3">
                 <h5 class="float-left">
-                  <a href="blog.html" class="text-white">07 May</a>
+                  <a href="#" class="text-white">13 Feb</a>
                 </h5>
                 <div class="clearfix"></div>
               </div>
               <div class="detail-bottom">
                 <h6 class="my-3">
-                  <a href="blog.html" class="text-dark">
-                    Eiusmod tempor incididunt ut labore sed do eiusmod
+                  <a href="#" class="text-dark">
+                   सीरवी ज्ञानकोष News Blog
                   </a>
                 </h6>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore sed do eiusmod tempor
-                  incididunt ut labore
+                  Comming Soon
                 </p>
               </div>
             </div>
           </div>
           <div class="col-md-4 news-grid my-md-0 my-sm-5 my-4 OnMouseHover">
-            <a href="blog.html">
-              <img src="<?php echo base_url('assets/front/images/n2.jpg')?>" class="img-fluid" alt="" />
+            <a href="#">
+              <img src="<?php echo base_url('assets/front/images/logo.jpg')?>" class="img-fluid" alt="" />
             </a>
             <div class="news-text">
               <div class="news-events-agile py-2 px-3">
                 <h5 class="float-left">
-                  <a href="blog.html" class="text-white">07 May</a>
+                  <a href="#" class="text-white">13 Feb</a>
                 </h5>
                 <div class="clearfix"></div>
               </div>
               <div class="detail-bottom">
                 <h6 class="my-3">
-                  <a href="blog.html" class="text-dark">
-                    Eiusmod tempor incididunt ut labore sed do eiusmod
+                  <a href="#" class="text-dark">
+                    सीरवी ज्ञानकोष News Blog
                   </a>
                 </h6>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore sed do eiusmod tempor
-                  incididunt ut labore
+                   Comming Soon
                 </p>
               </div>
             </div>
           </div>
           <div class="col-md-4 news-grid OnMouseHover">
-            <a href="blog.html">
-              <img src="<?php echo base_url('assets/front/images/n3.jpg')?>" class="img-fluid" alt="" />
+            <a href="#">
+              <img src="<?php echo base_url('assets/front/images/logo.jpg')?>" class="img-fluid" alt="" />
             </a>
             <div class="news-text">
               <div class="news-events-agile event-colo3 py-2 px-3">
                 <h5 class="float-left">
-                  <a href="blog.html" class="text-white">07 May</a>
+                  <a href="#" class="text-white">13 Feb</a>
                 </h5>
                 <div class="clearfix"></div>
               </div>
               <div class="detail-bottom">
                 <h6 class="my-3">
-                  <a href="blog.html" class="text-dark">
-                    Eiusmod tempor incididunt ut labore sed do eiusmod
+                  <a href="#" class="text-dark">
+                    सीरवी ज्ञानकोष News Blog
                   </a>
                 </h6>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore sed do eiusmod tempor
-                  incididunt ut labore
+                 Comming Soon
                 </p>
               </div>
             </div>
@@ -531,4 +525,3 @@
     </div>
     <!-- //news -->
    <?php $this->load->view('web/layouts/footer');?>
-      

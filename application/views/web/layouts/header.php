@@ -116,7 +116,7 @@ ul.login_ul li a{
                   <div class="agile-addresmk">
                     <p>
                       <span class="font-weight-bold text-dark">Mail Us</span>
-                      <a href="mailto:mail@example.com">info@example.com</a>
+                      <a href="mailto:myseervigyankosh@gmail.com">myseervigyankosh@gmail.com</a>
                     </p>
                   </div>
                 </div>
@@ -127,7 +127,7 @@ ul.login_ul li a{
                   <div class="agile-addresmk">
                     <p>
                       <span class="font-weight-bold text-dark">Call Us</span>
-                      +1234-567-890
+                      +91 8971196710
                     </p>
                   </div>
                 </div>
@@ -217,7 +217,7 @@ ul.login_ul li a{
 
               <li class="nav-item <?php if($this->uri->segment(1) == 'labharthi'){ echo 'active'; }?>">
                 <a class="nav-link text-white" href="<?php echo base_url('labharthi');?>"
-                  >लाभार्
+                  >लाभार्थी
                 </a>
               </li>   
 

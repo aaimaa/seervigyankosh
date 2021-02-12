@@ -287,7 +287,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-nav {
   min-height: 700px;
 }
 .banner-w3ls-1 {
-  background: url(../images/banner1.jpg) no-repeat center;
+  background: url(../images/header.jpeg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -841,7 +841,7 @@ h6.small-heading {
 /* inner pages */
 /* course page */
 .banner-agile-2 {
-  background: url(../images/banner1.jpg) no-repeat center;
+  background: url(../images/testheader.jpeg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2885,7 +2885,7 @@ li.subitem1 p {
     height: 154px;
   }
 }
-.active{
+.active {
   color: #000 !important;
 }
 /*--//responsive--*/

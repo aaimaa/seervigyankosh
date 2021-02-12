@@ -40,7 +40,7 @@
                         <div class="text-center mt-3">
                           <h6 class="font-weight-bold pt-2">Akash Parihar</h6>
                           <p class="text-muted">
-                            <small><i>Sand ballast suppliers</i></small>
+                            <small><i>(संगठन सचिव)</i></small>
                           </p>
                         </div>
                       </div>
@@ -49,15 +49,233 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                       <div class="p-4">
                         <div class="avatar w-100 white d-flex justify-content-center align-items-center">
-                          <img src="https://qph.fs.quoracdn.net/main-raw-931683537-vkellzhinsqitmmjujwndaijsffbhiho.jpeg" class="img-fluid rounded-circle z-depth-1"/>
+                          <!-- <img src="https://qph.fs.quoracdn.net/main-raw-931683537-vkellzhinsqitmmjujwndaijsffbhiho.jpeg" class="img-fluid rounded-circle z-depth-1"/> -->
+                        <img src="<?php echo base_url('assets/images/members/dilipji.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
                         </div>
 
                         <div class="text-center mt-3">
-                          <h6 class="font-weight-bold pt-2">Er. Dilip Palawat</h6>
-                          <p class="text-muted"><small><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></small></p>
+                          <h6 class="font-weight-bold pt-2"> दिलीप पालावत</h6>
+                          <p class="text-muted"><small><i> (विद्यार्थी मित्र सहसंचालक)</i></small></p>
                         </div>
                       </div>
                     </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/DineshJi.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">दिनेश बर्फा</h6>
+                          <p class="text-muted"><small><i> ( विद्यार्थी मित्र संचालक) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/ashok.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">अशोक काग </h6>
+                          <p class="text-muted"><small><i> (संगठन सचिव) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/kanaram.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2"> कानाराम सीरवी</h6>
+                          <p class="text-muted"><small><i> (मीडिया प्रभारी) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                     <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/tararam.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">ताराराम सीरवी</h6>
+                          <p class="text-muted"><small><i> (परगना प्रभारी - बाली) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/ghewarji.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">घेवर राम पंवार</h6>
+                          <p class="text-muted"><small><i> (डिजिटल टीम हेड) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/madhawji.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2"> माधव सिंह पंवार</h6>
+                          <p class="text-muted"><small><i> (व्यवस्थापक) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/deeparam.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2"> दीपाराम चौधरी सीरवी</h6>
+                          <p class="text-muted"><small><i> (परगना प्रभारी - मा.जंक्शन) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/mohanlala.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2"> मोहनलाल आगलेचा</h6>
+                          <p class="text-muted"><small><i> (महासचिव) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/bagadaramji.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">बगदाराम सिंदड़ा</h6>
+                          <p class="text-muted"><small><i> (कोषाध्यक्ष) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                     <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/pukharamji.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">पुखराज सीरवी</h6>
+                          <p class="text-muted"><small><i> (उपाध्यक्ष) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/chunaramji.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">चुनाराम भायल</h6>
+                          <p class="text-muted"><small><i> (सहकोषाध्यक्ष) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                     <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/rakeshji.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2"> राकेश राठौड़</h6>
+                          <p class="text-muted"><small><i> (सहव्यवस्थापक) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                     <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/rameshji.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">रमेश सीरवी</h6>
+                          <p class="text-muted"><small><i> (सोशल मीडिया प्रभारी) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/bharatji.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">भरत जी सीरवी</h6>
+                          <p class="text-muted"><small><i> (परगना प्रभारी - रानी) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/sureshji.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">सुरेश काग</h6>
+                          <p class="text-muted"><small><i> (संपादक) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/rrakeshji.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">राकेश राठौड़</h6>
+                          <p class="text-muted"><small><i> (सहसंपादक) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/pramsingh.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">प्रेम सिंह बर्फा</h6>
+                          <p class="text-muted"><small><i> (परगना प्रभारी - बिलाड़ा) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="p-4">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                          <img src="<?php echo base_url('assets/images/members/kaluram.jpeg');?>" class="img-fluid rounded-circle z-depth-1"/>
+                        </div>
+                        <div class="text-center mt-3">
+                          <h6 class="font-weight-bold pt-2">कालूराम सीरवी</h6>
+                          <p class="text-muted"><small><i> (परगना प्रभारी - सुमेरपुर) </i></small></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                   
+                 
+                   
+
 
                     <!-- <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                       <div class="p-4">

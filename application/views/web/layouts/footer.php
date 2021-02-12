@@ -1,5 +1,5 @@
 <!-- footer -->
-    <footer>
+<footer>
       <div class="container py-4"  id="contactUsForm">
         <div class="row py-xl-5 py-sm-3">
           <div class="col-lg-6 map">
@@ -9,14 +9,11 @@
               our
               <span class="font-weight-bold">directions</span>
             </h2>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.495758873587!2d-74.0005340845242!3d40.72911557933012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25991b7473067%3A0x59fbd02f7b519ce8!2s550+LaGuardia+Pl%2C+New+York%2C+NY+10012%2C+USA!5e0!3m2!1sen!2sin!4v1516166447283"
-            ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7161.098371062058!2d73.7054018!3d26.1788076!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3969f6fc1e8cba67%3A0x6819243987d26573!2sBader%20Chowk%2C%20Bilara%2C%20Rajasthan%20342602!5e0!3m2!1sen!2sin!4v1613102276720!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <div class="conta-posi-w3ls p-4 rounded">
               <h5 class="text-white font-weight-bold mb-3">Address</h5>
               <p>
-                25095 Blue Ravine Rd, <span>Diamonds street,</span> California,
-                USA
+               कार्यालय - श्री आईमाताजी मंदिर मार्ग, <span>बडेर चौक,,</span>  बिलाड़ा - जोधपुर (राज.),
               </p>
             </div>
           </div>
@@ -41,7 +38,7 @@
                 </form>
             </div>
             <p class="para-agileits-w3layouts text-white">
-              <i class="fas fa-map-marker pr-3"></i>25095 Blue Ravine Rd,USA
+              <i class="fas fa-map-marker pr-3"></i>  कार्यालय - श्री आईमाताजी मंदिर मार्ग, <span>बडेर चौक,,</span>  बिलाड़ा - जोधपुर (राज.),
             </p>
             <p class="para-agileits-w3layouts text-white my-sm-3 my-2">
               <i class="fas fa-phone pr-3"></i>032 625 4592
@@ -176,4 +173,3 @@
     });
     </script>
 </html>
-
