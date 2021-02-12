@@ -6,8 +6,8 @@
             <h2
               class="contact-title text-capitalize text-white font-weight-light mb-sm-4 mb-3"
             >
-              our
-              <span class="font-weight-bold">directions</span>
+              Our
+              <span class="font-weight-bold">Address</span>
             </h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7161.098371062058!2d73.7054018!3d26.1788076!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3969f6fc1e8cba67%3A0x6819243987d26573!2sBader%20Chowk%2C%20Bilara%2C%20Rajasthan%20342602!5e0!3m2!1sen!2sin!4v1613102276720!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <div class="conta-posi-w3ls p-4 rounded">
@@ -19,7 +19,7 @@
           </div>
           <div class="col-lg-6 contact-agileits-w3layouts mt-lg-0 mt-4">
             <h4 class="contact-title text-capitalize text-white font-weight-light mb-sm-4 mb-3">
-              Contact Us
+              संपर्क करें
             </h4>
             <p class="conta-para-style border-left pl-4">
               यदि आपके पास हमारे द्वारा प्रदान की जाने वाली सेवाओं के बारे में कोई प्रश्न हैं, तो बस नीचे दिए गए फॉर्म का उपयोग करें। हम 24 घंटे के भीतर सभी प्रश्नों और टिप्पणियों का प्रयास करते हैं।
@@ -44,7 +44,7 @@
             <p class="para-agileits-w3layouts">
               <i class="far fa-envelope-open pr-2"></i>
               <a href="mailto:mail@example.com" class="text-white"
-                >info@example.com</a
+                >myseervigyankosh@gmail.com</a
               >
             </p>
           </div>
@@ -84,10 +84,10 @@
                   >
                   </a>
                 </li>
-                <li class="ml-2">
+                <!-- <li class="ml-2">
                   <a href="#" class="fas fa-rss icon-border rss rounded-circle">
                   </a>
-                </li>
+                </li> -->
               </ul>
             </div>
             <!-- //social icons -->

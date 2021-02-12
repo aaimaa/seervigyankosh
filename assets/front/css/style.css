@@ -495,7 +495,7 @@ h3.title:after {
 /*-- //about --*/
 /*-- footer --*/
 footer {
-  background: url(../images/bg3.jpg) no-repeat center;
+  background: url(../images/contact-bg.png) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -748,7 +748,7 @@ h6.small-heading {
 /* //course section */
 /* stats */
 .stats-w3layouts {
-  background: url(../images/bg5.jpg) no-repeat center fixed;
+  background: url(../images/social-bg.png) no-repeat center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -841,7 +841,7 @@ h6.small-heading {
 /* inner pages */
 /* course page */
 .banner-agile-2 {
-  background: url(../images/testheader.jpeg) no-repeat center;
+  background: url(../images/temp-final-header.png) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

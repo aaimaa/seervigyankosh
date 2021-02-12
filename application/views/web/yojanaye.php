@@ -1,4 +1,5 @@
 <?php $this->load->view('web/layouts/header');?>
+<link rel="stylesheet" href="<?php echo base_url('assets/front/css/yojna.css'); ?>" />
      <!-- breadcrumb -->
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
@@ -16,209 +17,58 @@
         <h3
           class="title text-capitalize font-weight-light text-dark text-center mb-5"
         >
-          Yojanaye
+          योजनाएं 
           <span class="font-weight-bold"></span>
         </h3>
         <!-- form -->
-        <form action="#" method="post">
-          <div class="contact-grids1 w3agile-6">
-            <div class="row">
-              <div
-                class="col-md-12 col-sm-12 contact-form1 form-group"
-                style="overflow-x: scroll;"
-              >
-                <table
-                  id="example"
-                  class="table table-striped table-bordered"
-                  style="width: 100%;"
-                >
-                  <thead>
-                    <tr>
-                      <th>#ID</th>
-                      <th>Name</th>
-                      <th>Start date</th>
-                      <th>End date</th>
-                      <th>Number Of Labharthi</th>
-                      <th>Description (in Short)</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Tiger Nixon</td>
-                      <td>System Architect</td>
-                      <td>Edinburgh</td>
-                      <td>61</td>
-                      <td>2011/04/25</td>
-                      <td>$320,800</td>
-                    </tr>
-                    <tr>
-                      <td>Garrett Winters</td>
-                      <td>Accountant</td>
-                      <td>Tokyo</td>
-                      <td>63</td>
-                      <td>2011/07/25</td>
-                      <td>$170,750</td>
-                    </tr>
-                    <tr>
-                      <td>Ashton Cox</td>
-                      <td>Junior Technical Author</td>
-                      <td>San Francisco</td>
-                      <td>66</td>
-                      <td>2009/01/12</td>
-                      <td>$86,000</td>
-                    </tr>
-                    <tr>
-                      <td>Cedric Kelly</td>
-                      <td>Senior Javascript Developer</td>
-                      <td>Edinburgh</td>
-                      <td>22</td>
-                      <td>2012/03/29</td>
-                      <td>$433,060</td>
-                    </tr>
-                    <tr>
-                      <td>Jennifer Chang</td>
-                      <td>Regional Director</td>
-                      <td>Singapore</td>
-                      <td>28</td>
-                      <td>2010/11/14</td>
-                      <td>$357,650</td>
-                    </tr>
-                    <tr>
-                      <td>Brenden Wagner</td>
-                      <td>Software Engineer</td>
-                      <td>San Francisco</td>
-                      <td>28</td>
-                      <td>2011/06/07</td>
-                      <td>$206,850</td>
-                    </tr>
-                    <tr>
-                      <td>Fiona Green</td>
-                      <td>Chief Operating Officer (COO)</td>
-                      <td>San Francisco</td>
-                      <td>48</td>
-                      <td>2010/03/11</td>
-                      <td>$850,000</td>
-                    </tr>
-                    <tr>
-                      <td>Shou Itou</td>
-                      <td>Regional Marketing</td>
-                      <td>Tokyo</td>
-                      <td>20</td>
-                      <td>2011/08/14</td>
-                      <td>$163,000</td>
-                    </tr>
-                    <tr>
-                      <td>Michelle House</td>
-                      <td>Integration Specialist</td>
-                      <td>Sydney</td>
-                      <td>37</td>
-                      <td>2011/06/02</td>
-                      <td>$95,400</td>
-                    </tr>
-                    <tr>
-                      <td>Suki Burks</td>
-                      <td>Developer</td>
-                      <td>London</td>
-                      <td>53</td>
-                      <td>2009/10/22</td>
-                      <td>$114,500</td>
-                    </tr>
-                    <tr>
-                      <td>Prescott Bartlett</td>
-                      <td>Technical Author</td>
-                      <td>London</td>
-                      <td>27</td>
-                      <td>2011/05/07</td>
-                      <td>$145,000</td>
-                    </tr>
-                    <tr>
-                      <td>Gavin Cortez</td>
-                      <td>Team Leader</td>
-                      <td>San Francisco</td>
-                      <td>22</td>
-                      <td>2008/10/26</td>
-                      <td>$235,500</td>
-                    </tr>
-                    <tr>
-                      <td>Martena Mccray</td>
-                      <td>Post-Sales support</td>
-                      <td>Edinburgh</td>
-                      <td>46</td>
-                      <td>2011/03/09</td>
-                      <td>$324,050</td>
-                    </tr>
-                    <tr>
-                      <td>Unity Butler</td>
-                      <td>Marketing Designer</td>
-                      <td>San Francisco</td>
-                      <td>47</td>
-                      <td>2009/12/09</td>
-                      <td>$85,675</td>
-                    </tr>
-                    <tr>
-                      <td>Howard Hatfield</td>
-                      <td>Office Manager</td>
-                      <td>San Francisco</td>
-                      <td>51</td>
-                      <td>2008/12/16</td>
-                      <td>$164,500</td>
-                    </tr>
-                    <tr>
-                      <td>Hope Fuentes</td>
-                      <td>Secretary</td>
-                      <td>San Francisco</td>
-                      <td>41</td>
-                      <td>2010/02/12</td>
-                      <td>$109,850</td>
-                    </tr>
-                    <tr>
-                      <td>Vivian Harrell</td>
-                      <td>Financial Controller</td>
-                      <td>San Francisco</td>
-                      <td>62</td>
-                      <td>2009/02/14</td>
-                      <td>$452,500</td>
-                    </tr>
-                    <tr>
-                      <td>Timothy Mooney</td>
-                      <td>Office Manager</td>
-                      <td>London</td>
-                      <td>37</td>
-                      <td>2008/12/11</td>
-                      <td>$136,200</td>
-                    </tr>
-                    <tr>
-                      <td>Jackson Bradshaw</td>
-                      <td>Director</td>
-                      <td>New York</td>
-                      <td>65</td>
-                      <td>2008/09/26</td>
-                      <td>$645,750</td>
-                    </tr>
-                    <tr>
-                      <td>Olivia Liang</td>
-                      <td>Support Engineer</td>
-                      <td>Singapore</td>
-                      <td>64</td>
-                      <td>2011/02/03</td>
-                      <td>$234,500</td>
-                    </tr>
-                  </tbody>
-                  <tfoot>
-                    <tr>
-                      <th>Name</th>
-                      <th>Position</th>
-                      <th>Office</th>
-                      <th>Age</th>
-                      <th>Start date</th>
-                      <th>Salary</th>
-                    </tr>
-                  </tfoot>
-                </table>
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features section-bg">
+          <div class="container">
+
+            <!-- <div class="section-title">
+              <h2 data-aos="fade-in">Features</h2>
+              <p data-aos="fade-in">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div> -->
+
+            <div class="row content">
+              <div class="col-md-5" data-aos="fade-right">
+                <img src="assets/front/images/vidyarthi-mitra-yojna.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-7 pt-4" data-aos="fade-left">
+                <h3>सीरवी ज्ञानकोष विद्यार्थी मित्र टीम</h3>
+                <!-- <p class="font-italic">
+                  सीरवी शिक्षा हेतु सदैव तत्पर सभी विषयों की एक्सपर्ट टीम
+                </p> -->
+                <ul>
+                <br>
+                  <li><i class="icofont-check"></i> १. सीरवी शिक्षा हेतु सदैव तत्पर सभी विषयों की एक्सपर्ट टीम</li>
+                  <li><i class="icofont-check"></i> २. सीरवी समाज के MBBS , इंजीनियर, CA, नर्स, आर्मी, फिटनेश, अध्यापक, कम्प्यूटर, आयुर्वेदिक डॉक्टर, LLB, मनोवैज्ञानिक, करियर काउंसलर सहित समस्त विषय विशेषज्ञों की संयुक्त टीम</li>
+                  <li><i class="icofont-check"></i> ३. सीरवी समाज के विद्यार्थियों और अभ्यर्थियों के लिए 24×7 Whatsapp हेल्पलाइन</li>
+                  <li><i class="icofont-check"></i> ४. विद्यार्थी/अभ्यर्थी को हो रही किसी भी शिक्षा समस्या का निःशुल्क समाधान</li>
+                  <li><i class="icofont-check"></i> ५. विद्यालय स्तर से लेकर सभी प्रतियोगी परीक्षाओं के किसी भी विषय के किसी भी प्रश्न का बेहतरीन हल</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row content">
+              <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
+                <img src="assets/front/images/swasthya-mitra-yojna.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
+                <h3>सीरवी ज्ञानकोष स्वास्थ्य मित्र</h3>
+                <p>
+                <br>
+                वैश्विक महामारी कोरोना को ध्यान में रखते हुए आपकी अपनी सामाजिक संस्था सीरवी ज्ञानकोष ने स्वास्थ्य मित्र सेवा की शुरुआत की हैं।
+                </p>
+                <p>
+                <br>
+                जिसमें समाज के ही विशेषज्ञ डॉक्टर घर बैठे आपकी स्वास्थ्य समस्या का निःशुल्क समाधान कर रहे हैं।।
+                आप अपनी स्वास्थ्य समस्या की जानकारी हेल्पलाइन 89711 96710 पर 24×7  बात करके अथवा Whatsapp भेजकर निःशुल्क स्वास्थ्य सेवा से लाभ ले सकते हैं और निवेदन हैं कि अपने परिजन, परिचित और रिश्तेदारों को इस सेवा से अवगत करावें और लाभान्वित करावें।।
+                </p>
               </div>
             </div>
           </div>
-        </form>
+        </section><!-- End Features Section -->
         <!-- //form -->
       </div>
     </div>

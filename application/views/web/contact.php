@@ -50,9 +50,9 @@
               </div>
               <h4 class="font-weight-bold mt-sm-4 mt-3 mb-3">Email</h4>
               <p>
-                <a href="mailto:info@example.com">info@example1.com</a>
+                <a href="mailto:myseervigyankosh@gmail.com">info@example1.com</a>
                 <label>
-                  <a href="mailto:info@example.com">info@example2.com</a>
+                  <a href="mailto:myseervigyankosh@gmail.com">info@example2.com</a>
                 </label>
               </p>
             </div>

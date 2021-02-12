@@ -1,5 +1,6 @@
 <?php $this->load->view('web/layouts/header');?>
 <link rel="stylesheet" href="<?php echo base_url('assets/front/css/developers.css'); ?>" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 
  <script>
       addEventListener(
@@ -27,24 +28,23 @@
             <div class="container">
               <div class="row">
                 <section class="p-md-3 mx-md-5 text-center text-lg-left">
-                  <h2 class="text-center" mx-auto="" font-weight-bold="" mb-4="">Our Team</h2>
+                  <h2 class="text-center" mx-auto="" font-weight-bold="" mb-4="">पदाधिकारी गणमान्य</h2>
 
                   <div class="row d-flex justify-content-center">
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <!-- <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                       <div class="p-4">
 
                         <div class="avatar w-100 white d-flex justify-content-center align-items-center">
                           <img src="<?php echo base_url('assets/images/developer_img/akash_parihar_img.jpg');?>" class="img-fluid rounded-circle z-depth-1"/>
                         </div>
-
-                        <!-- <div class="text-center mt-3">
+                          <div class="text-center mt-3">
                           <h6 class="font-weight-bold pt-2">Akash Parihar</h6>
                           <p class="text-muted">
                             <small><i>(संगठन सचिव)</i></small>
                           </p>
-                        </div> -->
+                        </div>
                       </div>
-                    </div>
+                    </div> -->
 
                     <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                       <div class="p-4">
@@ -355,42 +355,58 @@
     <section class="our-webcoderskull padding-lg">
       <div class="container">
         <div class="row heading heading-icon">
-          <h2>वेब टीम</h2>
+          <h3 class="title text-capitalize font-weight-light text-dark text-center mb-5" >
+          वेब डेवलपर टीम</h3>
+          <!-- <h2>वेब टीम</h2> -->
         </div>
         <ul class="row">
-          <li class="col-12 col-md-6 col-lg-4">
+          <li class="col-12 col-sm-3">
             <div class="cnt-block equal-hight" style="height: 349px">
-              <figure><img src="<?php echo base_url('assets/images/developer_img/sid_img.jpg');?>" class="img-responsive" alt=""/></figure>
-              <h3><a href="http://www.webcoderskull.com/">शारदा चोयल</a></h3>
+              <figure><img src="<?php echo base_url('assets/images/developer_img/shraddha.png');?>" class="img-responsive" alt=""/></figure>
+              <h3>शारदा चोयल</h3>
               <p>वेब डेवलपर</p>
               <ul class="follow-us clearfix">
-                <li><a href="https://m.facebook.com/shraddha.choyal.1"  target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/shraddha-choyal-a94617142/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/shraddha-choyal-a94617142/" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                <li><a href="https://facebook.com/shraddha.choyal.1"  target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="http://www.webcoderskull.com/" target="_blank"><i class="fas fa-globe" aria-hidden="true"></i></a></li>
               </ul>
             </div>
           </li>
-          <li class="col-12 col-md-6 col-lg-4">
+          <li class="col-12 col-sm-3">
             <div class="cnt-block equal-hight" style="height: 349px">
-              <figure><img src="<?php echo base_url('assets/images/developer_img/prakash_sencha_img.jpeg');?>" class="img-responsive" alt=""/></figure>
-              <h3><a href="#">प्रकाश सेणचा</a></h3>
+              <figure><img src="<?php echo base_url('assets/images/developer_img/prakashsencha.png');?>" class="img-responsive" alt=""/></figure>
+              <h3>प्रकाश सेणचा</h3>
               <p>वेब डिज़ाइनर</p>
               <ul class="follow-us clearfix">
-                <li><a href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="javascript:void(0);"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="javascript:void(0);"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="javascript:void(0);"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
               </ul>
             </div>
           </li>
-          <li class="col-12 col-md-6 col-lg-4">
+          <li class="col-12 col-sm-3">
             <div class="cnt-block equal-hight" style="height: 349px">
-              <figure><img src="<?php echo base_url('assets/images/developer_img/prakash_panwar_img.jpg');?>" class="img-responsive" alt=""/></figure>
-              <h3><a href="http://www.webcoderskull.com/">प्रकाश सीरवी</a></h3>
+              <figure><img src="<?php echo base_url('assets/images/developer_img/asharamseervi.png');?>" class="img-responsive" alt=""/></figure>
+              <h3>आशाराम सीरवी</h3>
+              <p>वेब डेवलपर</p>
+              <ul class="follow-us clearfix">
+                <li><a href="https://www.linkedin.com/in/asharamseervi/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/asharamseervi"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://facebook.com/asharamseervi"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.aaimaa.in/?utm_source=gyankosh&utm_medium=profile" target="_blank"><i class="fas fa-globe" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-12 col-sm-3">
+            <div class="cnt-block equal-hight" style="height: 349px">
+              <figure><img src="<?php echo base_url('assets/images/developer_img/prakashpanwar.png');?>" class="img-responsive" alt=""/></figure>
+              <h3>प्रकाश सीरवी</h3>
               <p>प्रोजेक्ट को-ऑर्डिनेटर</p>
               <ul class="follow-us clearfix">
-                <li><a href="https://www.linkedin.com/in/prakash-panwar-425745138"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100007153004701"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.instagram.com/seerviprakashpanwar/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/prakash-panwar-425745138"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100007153004701"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/seerviprakashpanwar/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
               </ul>
             </div>
           </li>

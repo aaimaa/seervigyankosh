@@ -173,7 +173,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="contact.html"
-                  >Contact Us</a
+                  >संपर्क करें</a
                 >
               </li>
               <li class="nav-item">

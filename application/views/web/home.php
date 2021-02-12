@@ -4,7 +4,6 @@
         <h3
           class="title text-capitalize font-weight-light text-dark text-center mb-5"
         >
-          Welcome to
           <span
             class="font-weight-bold about_right"
             style="
@@ -15,6 +14,7 @@
             "
             >सीरवी ज्ञानकोष शिक्षा सेवा संस्था(रजि.)</span
           >
+          वेबसाइट पर आपका स्वागत हैं।
         </h3>
         <div class="row pt-md-4">
           <div class="col-lg-6 about_right">

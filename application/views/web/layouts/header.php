@@ -65,7 +65,7 @@ ul.login_ul li a{
         <div class="container">
           <div class="row">
             <h1 class="text-capitalize text-white col-7">
-              <i class="fas fa-book text-dark bg-white p-2 rounded-circle mr-3" ></i>seervi gyankosh
+              <i class="fas fa-book text-dark bg-white p-2 rounded-circle mr-3" ></i>Seervi Gyankosh
             </h1>
             <!-- social icons -->
             <div class="social-icons text-right col-5">
@@ -91,10 +91,10 @@ ul.login_ul li a{
                   >
                   </a>
                 </li>
-                <li class="ml-2">
+                <!-- <li class="ml-2">
                   <a href="#" class="fas fa-rss icon-border rss rounded-circle">
                   </a>
-                </li>
+                </li> -->
               </ul>
             </div>
             <!-- //social icons -->
@@ -105,14 +105,12 @@ ul.login_ul li a{
       <!-- middle header -->
       <div class="middle-w3ls-nav py-2">
         <div class="container">
-          <div class="row">
-            <a class="logo font-italic font-weight-bold col-lg-4 text-lg-left text-center" href="<?php echo base_url();?>">Seervi Gyankosh</a>
+          <div class="row" style="margin-top: 15px;">
+            <a class="logo font-italic font-weight-bold col-lg-4 text-lg-left text-center" href="<?php echo base_url();?>">सीरवी ज्ञानकोष</a>
             <div class="col-lg-8 right-info-agiles mt-lg-0 mt-sm-3 mt-1">
               <div class="row">
-                <div class="col-sm-4 nav-middle">
-                  <i
-                    class="far fa-envelope-open text-center mr-md-4 mr-sm-2 mr-4"
-                  ></i>
+                <div class="col-sm-4 col-6 nav-middle">
+                  <i class="far fa-envelope-open text-center mr-md-4 mr-sm-2 mr-4"></i>
                   <div class="agile-addresmk">
                     <p>
                       <span class="font-weight-bold text-dark">Mail Us</span>
@@ -121,43 +119,40 @@ ul.login_ul li a{
                   </div>
                 </div>
                 <div class="col-sm-4 col-6 nav-middle mt-sm-0 mt-2">
-                  <i
-                    class="fas fa-phone-volume text-center mr-md-4 mr-sm-2 mr-4"
-                  ></i>
-                  <div class="agile-addresmk">
+                  <i class="fas fa-phone-volume text-center mr-md-4 mr-sm-2 mr-4" style="margin-left: 60px;"></i>
+                  <div class="agile-addresmk"  style="margin-left: -15px;">
                     <p>
                       <span class="font-weight-bold text-dark">Call Us</span>
-                      +91 8971196710
+                      +91-8971196710
                     </p>
                   </div>
                 </div>
                 <div class="col-sm-4 col-6 top-login-butt text-right mt-sm-2">
-                  <ul class="login_ul">
-                          
-            <?php if($this->session->userdata("is_user_in")){ ?>
-              <li class="nav-item">
-              <a  class="nav-link border border-light rounded waves-effect waves-light <?php if($this->uri->segment(1) == 'user-profile'){ echo 'active'; }?>" href="<?php echo base_url('user-profile');?>">
-                <i class="fas fa-user-alt mr-2"></i>MY PROFILE
-              </a>
-            </li>
-            <li class="nav-item">
-              <a  class="nav-link border border-light rounded waves-effect waves-light <?php if($this->uri->segment(1) == 'logout'){ echo 'active'; }?>" href="<?php echo base_url('logout');?>">
-                <i class="fas fa-sign-out-alt mr-2"></i>LOG OUT
-              </a>
-            </li>
-            <?php }else{?>
-              <!-- <li class="nav-item">
-              <a class="nav-link border border-light rounded waves-effect waves-light <?php if($this->uri->segment(1) == 'login'){ echo 'active'; }?>" href="<?php echo base_url('login');?>">
-                <i class="fas fa-sign-in-alt mr-2"></i>LOGIN
-              </a>
-            </li> -->
-            <li class="nav-item ">
-              <a  class="nav-link border border-light rounded waves-effect waves-light <?php if($this->uri->segment(1) == 'register'){ echo 'active'; }?>" href="<?php echo base_url('register');?>">
-                <i class="fab fa-github mr-2"></i>REGISTR
-              </a>
-            </li>
-            <?php }?>
-          </ul>
+                  <ul class="login_ul">      
+                    <?php if($this->session->userdata("is_user_in")){ ?>
+                      <li class="nav-item">
+                      <a  class="nav-link border border-light rounded waves-effect waves-light <?php if($this->uri->segment(1) == 'user-profile'){ echo 'active'; }?>" href="<?php echo base_url('user-profile');?>">
+                        <i class="fas fa-user-alt mr-2"></i>MY PROFILE
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a  class="nav-link border border-light rounded waves-effect waves-light <?php if($this->uri->segment(1) == 'logout'){ echo 'active'; }?>" href="<?php echo base_url('logout');?>">
+                        <i class="fas fa-sign-out-alt mr-2"></i>LOG OUT
+                      </a>
+                    </li>
+                    <?php }else{?>
+                      <!-- <li class="nav-item">
+                      <a class="nav-link border border-light rounded waves-effect waves-light <?php if($this->uri->segment(1) == 'login'){ echo 'active'; }?>" href="<?php echo base_url('login');?>">
+                        <i class="fas fa-sign-in-alt mr-2"></i>LOGIN
+                      </a>
+                    </li> -->
+                    <li class="nav-item ">
+                      <a  class="nav-link border border-light rounded waves-effect waves-light <?php if($this->uri->segment(1) == 'register'){ echo 'active'; }?>" href="<?php echo base_url('register');?>">
+                        <i class="fab fa-github mr-2"></i>REGISTR
+                      </a>
+                    </li>
+                    <?php }?>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -199,7 +194,7 @@ ul.login_ul li a{
 
               <li class="nav-item <?php if($this->uri->segment(1) == 'yojanaye'){ echo 'active'; }?>">
                 <a class="nav-link text-white" href="<?php echo base_url('yojanaye');?>"
-                  >योजना
+                  >योजनाएं
                 </a>
               </li>
 
@@ -222,10 +217,10 @@ ul.login_ul li a{
               </li>   
 
               <li class="nav-item <?php if($this->uri->segment(1) == 'contact-us'){ echo 'active'; }?>">
-                <a class="nav-link text-white" href="#contactUsForm">Contact Us</a>
+                <a class="nav-link text-white" href="#contactUsForm">संपर्क करें</a>
               </li>
               <li class="nav-item <?php if($this->uri->segment(1) == 'library'){ echo 'active'; }?>">
-                <a class="nav-link text-white" href="library">E - Library</a>
+                <a class="nav-link text-white" href="library">Login @ E-Library</a>
               </li>
             </ul>
             </ul>
